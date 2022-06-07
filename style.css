@@ -169,7 +169,13 @@ footer {
 @media (max-width: 1024px) { /* tela de "tablet" */
     .instagram-wrapper {
         width: 90%;
-        height: 0;
+        height: auto;
+    }
+
+    .group {
+        min-height: 0;
+        height: 25rem;
+        width: 25rem;
     }
 
     .instagram-phone {
@@ -177,7 +183,7 @@ footer {
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 700px) {
     body {
         background-color: #fff;
     }
@@ -199,7 +205,7 @@ footer {
     }
     
     footer {
-        height: 0;
+        height: 40rem;
     }
 
     .links-uteis {
